@@ -20,7 +20,7 @@ public class PersonDTO {
         id = entity.getId();
         name = entity.getName();
         salary = entity.getSalary();
-        departmentId =  entity.getDepartment().getId(); // checar
+        departmentId =  entity.getDepartment().getId();
     }
 
     public Long getId() {

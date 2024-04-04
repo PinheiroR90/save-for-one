@@ -1,8 +1,7 @@
 package com.example.paraum.dto;
 
-import com.example.paraum.entities.Department;
+
 import com.example.paraum.entities.Person;
-import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;

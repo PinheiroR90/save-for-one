@@ -2,10 +2,7 @@ package com.example.paraum.controllers;
 
 import com.example.paraum.dto.PersonDTO;
 import com.example.paraum.dto.PersonDepartmentDTO;
-import com.example.paraum.entities.Department;
-import com.example.paraum.entities.Person;
 import com.example.paraum.services.PersonService;
-import jakarta.persistence.Table;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -39,5 +36,4 @@ public class PersonController {
                 .buildAndExpand(dto.getId()).toUri();
         return ResponseEntity.created(uri).body(dto);
     }
-
 }
