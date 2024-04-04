@@ -1,6 +1,5 @@
 package com.example.paraum.dto;
 
-
 import com.example.paraum.entities.Person;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
